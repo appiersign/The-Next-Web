@@ -48,4 +48,97 @@ table {
 }
 
 /*-----------------------------------------------------*/
+nav div ul li{
+  display: inline;
+  margin-right: 15px;
+  font-size: 13px;
+}
 
+h1 {
+  
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-align {
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-sz-1 {
+  flex: 1;
+}
+
+.flex-sz-2 {
+  flex: 2;
+}
+
+.flex-sz-3 {
+  flex: 3;
+}
+
+.flex-sz-4 {
+  flex: 4;
+}
+
+.flex-sz-5 {
+  flex: 5;
+}
+
+.flex-sz-6 {
+  flex: 6;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.bg-color-black {
+  background-color: black;
+}
+
+.bg-color-white {
+  background-color: white;
+}
+
+.t-n-font a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  text-decoration: none;
+}
+
+.t-n-font a:hover{
+  color: white;
+}
+
+.t-n-font-2 a {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+  text-transform: capitalize;
+}
+
+.h-32 {
+  height: 32px;
+}
+
+.h-48 {
+  height: 48px;
+}
+
+.x-margin-16 {
+  margin: auto 16px;
+}
