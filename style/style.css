@@ -319,7 +319,7 @@ nav div ul li {
 
 .article-title {
   position: absolute;
-  top: 40%;
+  top: 70%;
   left: 5%;
   font-family: sans-serif;
   color: white;
@@ -332,6 +332,10 @@ nav div ul li {
 .article-title h2 {
   font-size: 48px;
   font-weight: bold;
+}
+
+.article-subs {
+  margin-top: 1%;
 }
 
 #gray-nav {
