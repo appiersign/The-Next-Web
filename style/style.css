@@ -147,3 +147,7 @@ h1 {
 .x-margin-16 {
   margin: auto 16px;
 }
+
+#gray-nav {
+  background-color: #fefefe;
+}
