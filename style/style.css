@@ -185,6 +185,10 @@ section h1 {
   flex-direction: row-reverse;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .flex-column {
   flex-direction: column;
 }
@@ -398,6 +402,11 @@ section h1 {
   margin: 0 auto;
 }
 
+.sections {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .news-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -544,4 +553,46 @@ section h1 {
     font-size: 24px;
     font-weight: bold;
   }
+}
+
+.left-border {
+  border-left: solid 1px black;
+}
+
+.section-links li {
+  display: inline;
+  list-style: none;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.rounds {
+  width: 25%;
+  height: 294px;
+}
+
+.company-names {
+  height: 40px;
+  background-color: #EF4F1F;
+}
+
+.company-funds {
+  height: 60px;
+  background-color: #FCE8E5;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.rounds-body-bg {
+  background-color: #FEFAF8;
 }
