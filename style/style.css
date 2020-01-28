@@ -141,6 +141,21 @@ nav div ul li {
   font-size: 13px;
 }
 
+section h1 {
+  margin: 25px auto;
+  padding: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: rgb(255, 68, 34);
+  font-weight: bold;
+}
+
+.max-width {
+  width: 100%;
+  height: auto;
+}
+
 .h1-hide {
   font-size: 0;
   width: 1px;
@@ -198,29 +213,30 @@ nav div ul li {
   flex: 6;
 }
 
-.grid-container {
+.article-container {
   display: grid;
   width: 100%;
+  height: 65vh;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
 }
 
-.grid-item-1 {
+.article-item-1 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 
-.grid-item-2 {
+.article-item-2 {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
-.grid-item-3 {
+.article-item-3 {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -294,9 +310,25 @@ nav div ul li {
 
 .article-1 {
   width: 100%;
-  height: 75vh;
+  height: 100%;
   max-height: 560px;
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Bitcoin.-796x417.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-2 {
+  width: 100%;
+  max-height: 280px;
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/speeding-ticket-flash-walter-arnold-ticket-car-motoring-uk-police-bicycle-fine-796x450.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-3 {
+  width: 100%;
+  max-height: 280px;
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/1-18-796x417.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -311,7 +343,7 @@ nav div ul li {
 
 .article-date {
   position: absolute;
-  top:2%;
+  top: 2%;
   right: 5%;
   color: white;
   font-family: sans-serif;
@@ -319,7 +351,7 @@ nav div ul li {
 
 .article-title {
   position: absolute;
-  top: 70%;
+  bottom: 5%;
   left: 5%;
   font-family: sans-serif;
   color: white;
@@ -327,15 +359,112 @@ nav div ul li {
 
 .article-title a {
   font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 .article-title h2 {
-  font-size: 48px;
+  font-size: 58px;
+  font-weight: bold;
+}
+
+.article-title-small {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-family: sans-serif;
+  color: white;
+}
+
+.article-title-small a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.article-title-small h2 {
+  font-size: 28px;
   font-weight: bold;
 }
 
 .article-subs {
   margin-top: 1%;
+}
+
+.news-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.news-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 10px;
+}
+
+.news-grid-container img {
+  width: 100%;
+  height: auto;
+}
+
+.news-article-1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.news-article-2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.news-article-3 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.news-article-4 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.news-article-5 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.news-article-6 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.news-article-7 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.news-article-8 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 
 #gray-nav {
@@ -352,4 +481,67 @@ nav div ul li {
 #main-cover {
   width: 66.66%;
   height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .top-nav-bar {
+    display: none;
+  }
+
+  .news-info-list {
+    display: none;
+  }
+
+  .article-container {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+  }
+
+  .article-item-1 {
+    flex: 1;
+  }
+
+  .article-item-2 {
+    flex: 1;
+
+  }
+
+  .article-item-3 {
+    flex: 1;
+
+  }
+
+  .article-date {
+    display: none;
+  }
+
+  .article-logo {
+    display: none;
+  }
+
+  .article-title {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .article-title a {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .article-title h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .article-title-small h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
 }
