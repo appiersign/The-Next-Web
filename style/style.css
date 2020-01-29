@@ -680,21 +680,26 @@ section h1 a {
   height: 294px;
 }
 
-.rounds-tags {
-  border-bottom: 1px solid #EF4F1F;
-}
-
 .company-names {
   height: 30px;
   background-color: #EF4F1F;
-  font-weight: bold;
   color: white;
   font-size: 18px;
 }
 
 .company-funds {
-  height: 60px;
+  height: 50px;
   background-color: #FCE8E5;
+}
+
+.company-funds p:nth-child(2) {
+  color: #CCBCBA;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.bold-text {
+  font-weight: bold;
 }
 
 .pr-10 {
@@ -717,8 +722,21 @@ section h1 a {
   padding-top: 10px;
 }
 
+.mt-30 {
+  margin-top: 30px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
 .rounds-body-bg {
   background-color: #FEFAF8;
+}
+
+.rounds-info {
+  height: 60px;
+  border-bottom: 1px solid #EF4F1F;
 }
 
 .rounds-img {
@@ -728,4 +746,15 @@ section h1 a {
   position: absolute;
   margin-top: 10px;
   margin-left: 10px;
+}
+
+.rounds-img img {
+  height: inherit;
+  width: inherit;
+}
+
+.rounds-a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #555;
 }
