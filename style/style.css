@@ -525,21 +525,6 @@ section h1 a {
   opacity: 0;
 }
 
-.section-1 {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.section-1-background {
-  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
-}
-
 .section-img-text {
   position: absolute;
   bottom: 5%;
@@ -560,6 +545,96 @@ section h1 a {
   font-size: 13px;
 }
 
+.latest-image {
+  float: right;
+  height: 96px;
+  width: 96px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.latest-image-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Google-translate.png");
+  background-position-x: -75px;
+}
+
+.latest-image-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/All-Formats-Lightcycle-Morph.jpg");
+  background-position-x: -75px;
+}
+
+.latest-image-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/ring-amazon-video-customer.jpg");
+  background-position-x: -75px;
+}
+
+.latest-news-container {
+  position: relative;
+  background-color: #FCE8E5;
+}
+
+.latest-news-container h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color:red;
+}
+
+.latest-news-container h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color:red;
+}
+
+.latest-news-title {
+  width: 70%;
+  position: absolute;
+  top: 25%;
+  left: 4%;
+}
+
+.latest-news-list {
+  width: 100%;
+}
+
+.latest-news-list ul li {
+  padding: 12px 0;
+  border-bottom: rgb(200, 200, 200) 0.5px solid;
+}
+
+.latest-news-list ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+}
+
+.latest-news-list ul li a{
+  text-decoration: none;
+  color: gray;
+  font-family: sans-serif;
+}
+
+.latest-news-list ul li a:hover {
+  color: black;
+}
+
+.section-1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.section-1-background {
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
 .section-2 {
   grid-row-start: 1;
   grid-row-end: 2;
@@ -567,11 +642,27 @@ section h1 a {
   grid-column-end: 3;
 }
 
+.section-2-background {
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-tim-cook-Apple-financials-1-368x276.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
 .section-3 {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 3;
   grid-column-end: 4;
+}
+
+.section-3-background {
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 
 .section-4 {
