@@ -411,13 +411,32 @@ section h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 36px;
   margin: 10px;
 }
 
 .news-grid-container img {
   width: 100%;
   height: auto;
+}
+
+.news-article a {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.news-article a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.news-article span {
+  font-size: 13px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .news-article-1 {
