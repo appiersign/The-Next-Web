@@ -758,3 +758,11 @@ section h1 a {
   font-weight: 400;
   color: #555;
 }
+
+.red-text {
+  color: red;
+}
+
+.no-underline {
+  text-decoration: none;
+}
