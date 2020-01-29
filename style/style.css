@@ -509,9 +509,16 @@ section h1 a {
   grid-gap: 32px;
 }
 
+.section-bundle h1 {
+  margin-bottom: 15px;
+}
+
 .section-bundle img {
   width: 100%;
   height: auto;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }
 
 .section-1 {
@@ -519,6 +526,34 @@ section h1 a {
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 2;
+}
+
+.section-1-background {
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.section-img-text {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 95%;
+}
+
+.section-img-text h2 a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.section-img-text span, a {
+  font-size: 13px;
 }
 
 .section-2 {
