@@ -680,9 +680,16 @@ section h1 a {
   height: 294px;
 }
 
+.rounds-tags {
+  border-bottom: 1px solid #EF4F1F;
+}
+
 .company-names {
-  height: 40px;
+  height: 30px;
   background-color: #EF4F1F;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
 }
 
 .company-funds {
@@ -702,6 +709,23 @@ section h1 a {
   padding: 20px;
 }
 
+.pl-85 {
+  padding-left: 85px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
 .rounds-body-bg {
   background-color: #FEFAF8;
+}
+
+.rounds-img {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
 }
