@@ -218,6 +218,16 @@ section h1 a {
   flex: 6;
 }
 
+.tnw-logo-top {
+  display: none;
+}
+
+.tnw-logo-top-svg {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .article-container {
   display: grid;
   width: 100%;
@@ -492,6 +502,74 @@ section h1 a {
   grid-column-end: 5;
 }
 
+.section-bundle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 32px;
+}
+
+.section-bundle img {
+  width: 100%;
+  height: auto;
+}
+
+.section-1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.section-2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.section-3 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.section-4 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.section-5 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.section-6 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.section-7 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.section-8 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
 #gray-nav {
   background-color: #fefefe;
 }
@@ -509,6 +587,21 @@ section h1 a {
 }
 
 @media screen and (max-width: 1024px) {
+  .tnw-logo-top {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 106px;
+    height: 80px;
+    background: linear-gradient(135deg, #ff005d 0%, #ff8f00 100%);
+  }
+  
+  .tnw-logo-top:hover {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif")
+  }
+
   .news-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
