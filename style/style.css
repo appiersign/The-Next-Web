@@ -125,7 +125,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -331,7 +331,7 @@ section h1 a {
   width: 100%;
   height: 100%;
   max-height: 560px;
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Bitcoin.-796x417.jpg');
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Bitcoin.-796x417.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -339,7 +339,7 @@ section h1 a {
 .article-2 {
   width: 100%;
   max-height: 280px;
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/speeding-ticket-flash-walter-arnold-ticket-car-motoring-uk-police-bicycle-fine-796x450.png');
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/speeding-ticket-flash-walter-arnold-ticket-car-motoring-uk-police-bicycle-fine-796x450.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -347,7 +347,7 @@ section h1 a {
 .article-3 {
   width: 100%;
   max-height: 280px;
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/1-18-796x417.jpg');
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/1-18-796x417.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -529,7 +529,7 @@ section h1 a {
   position: absolute;
   bottom: 5%;
   left: 3%;
-  color:white;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   width: 95%;
 }
@@ -541,7 +541,8 @@ section h1 a {
   text-decoration: none;
 }
 
-.section-img-text span, a {
+.section-img-text span,
+a {
   font-size: 13px;
 }
 
@@ -570,20 +571,20 @@ section h1 a {
 
 .latest-news-container {
   position: relative;
-  background-color: #FCE8E5;
+  background-color: #fce8e5;
 }
 
 .latest-news-container h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-  color:red;
+  color: red;
 }
 
 .latest-news-container h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color:red;
+  color: red;
 }
 
 .latest-news-title {
@@ -606,11 +607,11 @@ section h1 a {
   content: "\2022";
   color: red;
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
 }
 
-.latest-news-list ul li a{
+.latest-news-list ul li a {
   text-decoration: none;
   color: gray;
   font-family: sans-serif;
@@ -628,7 +629,7 @@ section h1 a {
 }
 
 .section-1-background {
-  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg');
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -643,7 +644,7 @@ section h1 a {
 }
 
 .section-2-background {
-  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-tim-cook-Apple-financials-1-368x276.png');
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-tim-cook-Apple-financials-1-368x276.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -658,7 +659,7 @@ section h1 a {
 }
 
 .section-3-background {
-  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg');
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-1200x600.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -727,9 +728,9 @@ section h1 a {
     height: 80px;
     background: linear-gradient(135deg, #ff005d 0%, #ff8f00 100%);
   }
-  
+
   .tnw-logo-top:hover {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif")
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif");
   }
 
   .news-grid-container {
@@ -746,49 +747,49 @@ section h1 a {
     grid-column-start: 1;
     grid-column-end: 2;
   }
-  
+
   .news-article-2 {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
   }
-  
+
   .news-article-3 {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 3;
     grid-column-end: 4;
   }
-  
+
   .news-article-4 {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
   }
-  
+
   .news-article-5 {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
   }
-  
+
   .news-article-6 {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 3;
     grid-column-end: 4;
   }
-  
+
   .news-article-7 {
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
   }
-  
+
   .news-article-8 {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -818,12 +819,10 @@ section h1 a {
 
   .article-item-2 {
     flex: 1;
-
   }
 
   .article-item-3 {
     flex: 1;
-
   }
 
   .article-date {
@@ -873,7 +872,7 @@ section h1 a {
     font-size: 14px;
   }
 
-  .news-article img{
+  .news-article img {
     width: 75px;
     height: 75px;
     float: left;
@@ -905,18 +904,18 @@ section h1 a {
 
 .company-names {
   height: 30px;
-  background-color: #EF4F1F;
+  background-color: #ef4f1f;
   color: white;
   font-size: 18px;
 }
 
 .company-funds {
   height: 50px;
-  background-color: #FCE8E5;
+  background-color: #fce8e5;
 }
 
 .company-funds p:nth-child(2) {
-  color: #CCBCBA;
+  color: #ccbcba;
   padding-top: 5px;
   font-size: 12px;
 }
@@ -954,12 +953,12 @@ section h1 a {
 }
 
 .rounds-body-bg {
-  background-color: #FEFAF8;
+  background-color: #fefaf8;
 }
 
 .rounds-info {
   height: 60px;
-  border-bottom: 1px solid #EF4F1F;
+  border-bottom: 1px solid #ef4f1f;
 }
 
 .rounds-img {
@@ -995,7 +994,7 @@ section h1 a {
   width: 350px;
 }
 
-.best-deals-item img{
+.best-deals-item img {
   width: 100%;
   height: auto;
 }
@@ -1018,5 +1017,44 @@ section h1 a {
 s {
   text-decoration: line-through;
   font-size: 0.8em;
-  color: #ADADAD;
+  color: #adadad;
+}
+
+footer {
+  height: 280px;
+  color: white;
+}
+
+#footer-links {
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  background-color: #131313;
+}
+
+#footer-legal {
+  height: 90px;
+  background-color: #000000;
+}
+
+footer ul {
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+#footer-links ul:nth-child(1) li {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-links ul:nth-child(1) li img {
+  width: 80%; height: 80%;
 }
