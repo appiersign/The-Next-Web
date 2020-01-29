@@ -569,6 +569,31 @@ a {
   background-position-x: -75px;
 }
 
+.latest-image-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/instagram-photoshop-hide-misinformation.jpg");
+  background-position-x: -36px;
+}
+
+.latest-image-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design43.png");
+  background-position-x: -43px;
+}
+
+.latest-image-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/stellar-blockchain-down-cryptocurrency-decentralized.jpg");
+  background-position-x: -34px;
+}
+
+.latest-image-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg");
+  background-position-x: -75px;
+}
+
+.latest-image-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_2267466a.png");
+  background-position-x: -75px;
+}
+
 .latest-news-container {
   position: relative;
   background-color: #fce8e5;
@@ -673,11 +698,27 @@ a {
   grid-column-end: 2;
 }
 
+.section-4-background {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-368x276.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
 .section-5 {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 3;
+}
+
+.section-5-background {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design44-368x276.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 
 .section-6 {
@@ -687,6 +728,14 @@ a {
   grid-column-end: 4;
 }
 
+.section-6-background {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
 .section-7 {
   grid-row-start: 3;
   grid-row-end: 4;
@@ -694,11 +743,27 @@ a {
   grid-column-end: 2;
 }
 
+.section-7-background {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
 .section-8 {
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 2;
   grid-column-end: 3;
+}
+
+.section-8-background {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options-368x276.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 
 #gray-nav {
