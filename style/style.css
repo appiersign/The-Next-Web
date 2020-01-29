@@ -894,3 +894,7 @@ section h1 a {
 .no-underline {
   text-decoration: none;
 }
+
+.best-deals-item img{
+  width: 40%;
+}
