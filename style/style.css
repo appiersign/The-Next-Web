@@ -141,7 +141,7 @@ nav div ul li {
   font-size: 13px;
 }
 
-section h1 {
+section h1 a {
   margin: 25px auto;
   padding: 0;
   border: 0;
@@ -149,6 +149,7 @@ section h1 {
   font-size: 28px;
   color: rgb(255, 68, 34);
   font-weight: bold;
+  text-decoration: none;
 }
 
 .max-width {
@@ -397,14 +398,10 @@ section h1 {
   margin-top: 1%;
 }
 
-.news-section {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .sections {
   width: 80%;
   margin: 0 auto;
+  margin-top: 100px;
 }
 
 .news-grid-container {
@@ -511,6 +508,72 @@ section h1 {
   height: 100%;
 }
 
+@media screen and (max-width: 1024px) {
+  .news-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 28px;
+    margin: 10px;
+  }
+
+  .news-article-1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .news-article-2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+  .news-article-3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  
+  .news-article-4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .news-article-5 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+  .news-article-6 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  
+  .news-article-7 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .news-article-8 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .top-nav-bar {
     display: none;
@@ -571,6 +634,33 @@ section h1 {
   .article-title-small h2 {
     font-size: 24px;
     font-weight: bold;
+  }
+
+  .news-grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-article {
+    flex: 1;
+    margin-top: 10px;
+  }
+
+  .news-article a {
+    font-size: 14px;
+  }
+
+  .news-article img{
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .sections {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 100px;
   }
 }
 
