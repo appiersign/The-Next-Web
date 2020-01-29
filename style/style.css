@@ -992,7 +992,7 @@ section h1 a {
 
 .best-deals-item {
   margin-top: 30px;
-  width: 25%;
+  width: 350px;
 }
 
 .best-deals-item img{
@@ -1003,13 +1003,20 @@ section h1 a {
 .best-deals-item a {
   margin-top: 10px;
   margin-bottom: 10px;
-  line-height: 15px;
+  line-height: 1em;
   text-decoration: none;
   font-weight: bold;
   color: black;
-  font-size: 12px;
+  font-size: 1.2em;
 }
 
 #best-deals-container {
   justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+s {
+  text-decoration: line-through;
+  font-size: 0.8em;
+  color: #ADADAD;
 }
