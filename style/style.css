@@ -297,15 +297,15 @@ section h2 a {
   text-decoration: none;
 }
 
-.t-n-font a:hover {
-  color: white;
-}
-
 .t-n-font-2 a {
   font-family: sans-serif;
   font-size: 14px;
   color: rgb(100, 100, 100);
   text-transform: capitalize;
+}
+
+.t-n-font a:hover {
+  color: white;
 }
 
 .h-32 {
