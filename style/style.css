@@ -649,6 +649,13 @@ section h2 a {
   width: 100%;
 }
 
+.section-links li {
+  display: inline;
+  list-style: none;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
 .latest-news-list ul li {
   padding: 12px 0;
   border-bottom: rgb(200, 200, 200) 0.5px solid;
@@ -805,13 +812,6 @@ section h2 a {
 #main-cover {
   width: 66.66%;
   height: 100%;
-}
-
-.section-links li {
-  display: inline;
-  list-style: none;
-  padding-left: 20px;
-  margin-left: 10px;
 }
 
 .rounds {
