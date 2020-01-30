@@ -1123,3 +1123,14 @@ footer ul li {
 #footer-links ul:nth-child(1) li img {
   width: 80%; height: 80%;
 }
+
+#footer-links ul:nth-child(2) li a{
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+  font-size: 0.8em;
+}
+
+#footer-links ul:nth-child(2) li a:hover {
+  color: white;
+}
