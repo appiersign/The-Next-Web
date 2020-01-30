@@ -291,6 +291,41 @@ section h2 a {
   background-color: white;
 }
 
+.article-title a {
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.article-title-small {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-family: sans-serif;
+  color: white;
+}
+
+.article-title-small a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.news-article a {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.news-article a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
 .t-n-font a {
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
@@ -401,21 +436,6 @@ section h2 a {
   font-weight: bold;
 }
 
-.article-title-small {
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
-  font-family: sans-serif;
-  color: white;
-}
-
-.article-title-small a {
-  font-size: 12px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
 .article-title-small h2 {
   font-size: 28px;
   font-weight: bold;
@@ -442,19 +462,6 @@ section h2 a {
 .news-grid-container img {
   width: 100%;
   height: auto;
-}
-
-.news-article a {
-  font-weight: bold;
-  font-size: 18px;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-}
-
-.news-article a:hover {
-  color: red;
-  text-decoration: underline;
 }
 
 .news-article span {
@@ -1240,13 +1247,6 @@ footer ul li {
     left: 5%;
     font-family: sans-serif;
     color: white;
-  }
-
-  .article-title a {
-    font-size: 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
   }
 
   .article-title h2 {
