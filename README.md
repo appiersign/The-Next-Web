@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/appiersign/The-Next-Web/develop/index.html)
 
 
 ## Authors

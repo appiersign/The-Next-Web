@@ -136,6 +136,11 @@ header {
   z-index: 5;
 }
 
+footer ul li {
+  margin-right: 10px;
+  list-style: none;
+}
+
 nav div ul li {
   display: inline;
   margin-right: 15px;
@@ -291,13 +296,6 @@ section h2 a {
   background-color: white;
 }
 
-.article-title a {
-  font-size: 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
 .article-title-small {
   position: absolute;
   bottom: 5%;
@@ -344,6 +342,26 @@ section h2 a {
 .section-img-text span,
 .section-img-text a {
   font-size: 13px;
+}
+
+.rounds p,
+.rounds span,
+.rounds a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rounds a {
+  text-decoration: none;
+}
+
+.best-deals-item a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
 }
 
 .section-img-text h2 a {
@@ -819,16 +837,6 @@ section h2 a {
   height: 294px;
 }
 
-.rounds p,
-span,
-a {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.rounds a {
-  text-decoration: none;
-}
-
 .company-names {
   height: 30px;
   background-color: #ef4f1f;
@@ -926,16 +934,6 @@ a {
   height: auto;
 }
 
-.best-deals-item a {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 1em;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-  font-size: 1.2em;
-}
-
 #best-deals-container {
   justify-content: space-between;
   margin-bottom: 100px;
@@ -985,11 +983,6 @@ footer {
 
 footer ul {
   margin-bottom: 20px;
-}
-
-footer ul li {
-  margin-right: 10px;
-  list-style: none;
 }
 
 #footer-links ul:nth-child(1) li {
