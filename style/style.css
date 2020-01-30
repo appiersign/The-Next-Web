@@ -146,7 +146,7 @@ section h1 a {
   padding: 0;
   border: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
+  font-size: 1.8em;
   color: rgb(255, 68, 34);
   font-weight: bold;
   text-decoration: none;
@@ -861,6 +861,28 @@ a {
     grid-column-start: 2;
     grid-column-end: 3;
   }
+
+  .rounds:last-child {
+    display: none;
+  }
+
+  #all-rounds-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #all-rounds-title h1 {
+    margin-bottom: 20px;
+  }
+
+  #all-rounds-title ul {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+
+  #all-rounds-title ul li:nth-last-child(1) {
+    margin-left: -20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -949,6 +971,16 @@ a {
     margin: 0 auto;
     margin-top: 100px;
   }
+
+  #all-rounds {
+    flex-direction: column;
+  }
+
+  .rounds {
+    flex: 1;
+    height: 294px;
+    margin-bottom: 20px;
+  }
 }
 
 .left-border {
@@ -963,7 +995,7 @@ a {
 }
 
 .rounds {
-  width: 25%;
+  flex: 1;
   height: 294px;
 }
 
