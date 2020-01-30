@@ -1100,6 +1100,14 @@ footer {
 #footer-legal {
   height: 90px;
   background-color: #000000;
+  justify-content: center;
+}
+
+#footer-legal p {
+  font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+  font-size: 0.8em;
+  line-height: 18px;
+  text-align: center;
 }
 
 footer ul {
@@ -1133,15 +1141,4 @@ footer ul li {
 
 #footer-links ul:nth-child(2) li a:hover {
   color: white;
-}
-
-#footer-legal {
-  justify-content: center;
-}
-
-#footer-legal p {
-  font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
-  font-size: 0.8em;
-  line-height: 18px;
-  text-align: center;
 }
