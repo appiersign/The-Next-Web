@@ -988,22 +988,22 @@ footer ul {
 }
 
 footer ul li {
-  margin-right: 20px;
+  margin-right: 10px;
   list-style: none;
 }
 
 #footer-links ul:nth-child(1) li {
   background-color: white;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
 }
 
-#footer-links ul:nth-child(1) li img {
-  width: 80%;
-  height: 80%;
+#footer-links ul:nth-child(1) li i {
+  width: 16px;
+  height: 16px;
 }
 
 #footer-links ul:nth-child(2) li a {
