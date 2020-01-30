@@ -562,7 +562,8 @@ section h2 a {
   text-decoration: none;
 }
 
-.section-img-text span, .section-img-text a {
+.section-img-text span,
+.section-img-text a {
   font-size: 13px;
 }
 
@@ -977,7 +978,7 @@ footer {
 }
 
 #footer-legal p {
-  font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+  font-family: sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
   font-size: 0.8em;
   line-height: 18px;
   text-align: center;
@@ -1009,7 +1010,7 @@ footer ul li {
 #footer-links ul:nth-child(2) li a {
   color: gray;
   text-decoration: none;
-  font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+  font-family: sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
   font-size: 0.8em;
 }
 
