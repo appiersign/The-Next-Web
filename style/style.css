@@ -586,10 +586,6 @@ section h2 a:hover {
   grid-gap: 32px;
 }
 
-.section-bundle section h2 {
-  margin-bottom: 30px;
-}
-
 .section-bundle h1 {
   margin-bottom: 15px;
 }
@@ -946,6 +942,10 @@ section h2 a:hover {
 }
 
 .best-deals h2 {
+  margin-bottom: 30px;
+}
+
+.section-bundle section h2 {
   margin-bottom: 30px;
 }
 
