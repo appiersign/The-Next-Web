@@ -403,8 +403,7 @@ section h2 a:hover {
   color: white;
 }
 
-#footer-legal a,
-span {
+#footer-legal span {
   color: #999;
   font-family: sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
   font-size: 0.7em;
