@@ -236,6 +236,20 @@ section h2 a {
   flex: 6;
 }
 
+.search-icon {
+  width: 24px;
+  height: auto;
+  margin: 0;
+  padding: 0 10px 0 10px;
+  display: block;
+  float: right;
+  border-left: lightgray 0.5px solid;
+}
+
+.menu-icon {
+  display: none;
+}
+
 .top-spacer {
   height: 120px;
 }
@@ -1022,6 +1036,14 @@ footer ul {
     background: linear-gradient(135deg, #ff005d 0%, #ff8f00 100%);
   }
 
+  .article-logo {
+    display: none;
+  }
+
+  .red-effect {
+    background: transparent;
+  }
+
   #yellow-nav {
     top: 80px;
   }
@@ -1190,6 +1212,16 @@ footer ul {
     width: 106px;
     height: 48px;
     background: linear-gradient(135deg, #ff005d 0%, #ff8f00 100%);
+  }
+
+  .menu-icon {
+    width: 24px;
+    height: auto;
+    margin: 0;
+    padding: 0 10px 0 10px;
+    display: block;
+    float:right;
+    border-left: lightgray 0.5px solid;
   }
 
   #yellow-nav {
