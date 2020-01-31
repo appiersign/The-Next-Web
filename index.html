@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Design</title>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css" type="text/css" />
+</head>
+
+<body>
+  <header class="flex-container flex-row">
+    <h1 class="h1-hide">The Next Web</h1>
+    <div class="tnw-logo-top">
+      <svg class="tnw-logo-top-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16">
+        <path fill="#FFF"
+          d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4" />
+      </svg>
+    </div>
+    <nav class="flex-container flex-column flex-sz-1">
+      <div class="flex-container flex-row bg-color-black flex-align h-32 t-n-font top-nav-bar">
+        <ul class="flex-sz-1 x-margin-16">
+          <li><a href="#">News</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">AMAs</a></li>
+          <li><a href="#">Spaces</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+        <ul class="flex-sz-1 text-align-right x-margin-16">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div id="gray-nav" class="flex-container flex-row bg-color-white flex-align h-48 t-n-font">
+        <ul class="x-margin-16 flex-sz-1 news-info-list">
+          <li><a href="#">LATEST</a></li>
+          <li><a href="#">HARD FORK</a></li>
+          <li><a href="#">PLUGGED</a></li>
+          <li><a href="#">FUNDAMENTALS</a></li>
+          <li><a href="#">WORK 2030</a></li>
+          <li><a href="#">README</a></li>
+        </ul>
+        <div class="flex-sz-1 x-margin-16">
+          <div class="search-icon">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px" y="0px" viewBox="0 0 511.999 511.999"
+              style="enable-background:new 0 0 511.999 511.999;  width: 24px; height: auto; margin-right: 20px;"
+              xml:space="preserve">
+              <g>
+                <g>
+                  <path style="fill: gray;" d="M508.874,478.708L360.142,329.976c28.21-34.827,45.191-79.103,45.191-127.309c0-111.75-90.917-202.667-202.667-202.667
+			S0,90.917,0,202.667s90.917,202.667,202.667,202.667c48.206,0,92.482-16.982,127.309-45.191l148.732,148.732
+			c4.167,4.165,10.919,4.165,15.086,0l15.081-15.082C513.04,489.627,513.04,482.873,508.874,478.708z M202.667,362.667
+			c-88.229,0-160-71.771-160-160s71.771-160,160-160s160,71.771,160,160S290.896,362.667,202.667,362.667z" />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="menu-icon">
+            <svg class="css-1fe7a5q" viewBox="0 0 16 16">
+              <rect x="1" y="3" fill="#333333" width="14" height="2"></rect>
+              <rect x="1" y="7" fill="#333333" width="14" height="2"></rect>
+              <rect x="1" y="11" fill="#333333" width="14" height="2"></rect>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="yellow-nav">
+      TNW2020 ticket prices rise on Monday – get yours quick! →
+    </div>
+    <div class="top-spacer"></div>
+    <div class="article-container">
+      <div class="article-item-1 article-1">
+        <div class="red-effect">
+          <div class="gradient">
+            <div class="article-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16">
+                <path fill="#FFF"
+                  d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4" />
+              </svg>
+            </div>
+            <div class="article-date"><span>Tuesday — January 28, 2020</span></div>
+            <div class="article-title">
+              <a>INSIGHTS</a>
+              <h2>UK's high court orders crypto exchange Bitfinex to dox recipients of $860K in Bitcoin</h2>
+              <div class="article-subs">
+                <span>by </span><a href="#">David Cannelis</a> <i class="fa fa-history"></i> <span> 1 hour ago.</span>
+                <i class="fa fa-share-alt"></i> <span>5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="article-item-2 article-2">
+        <div class="gradient">
+          <div class="article-title-small">
+            <a>INSIGHTS</a>
+            <h2>124 years after the first speeding ticket and regulations still can't keep up with tech</h2>
+            <div class="article-subs">
+              <span>by </span><a href="#">Matthew Beedham</a> <i class="fa fa-history"></i> <span> 2 hours ago.</span>
+              <i class="fa fa-share-alt"></i> <span>7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="article-item-3 article-3">
+        <div class="gradient">
+          <div class="article-title-small">
+            <a>WORLD</a>
+            <h2>Salty Mars water could hold proof of primitive life</h2>
+            <div class="article-subs">
+              <span>by </span><a href="#">The Cosmic Companion</a> <i class="fa fa-history"></i> <span> 3 hour
+                ago.</span> <i class="fa fa-share-alt"></i> <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="sections">
+      <h2><a href="#">Latest news ></a></h2>
+      <div class="news-grid-container">
+        <div class="news-article news-article-1">
+          <a href="#"><img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/artificial-intelligence-hed-516x270.jpg"
+              alt="image"></a>
+          <h5><a href="#">RealityEngines' AI could help small businesses overcome the data gap</a></h5>
+          <span>TNW Deals - 1 hour ago</span>
+        </div>
+        <div class="news-article news-article-2">
+          <a href="#"><img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Google-translate-516x270.png"
+              alt="image"></a>
+          <h5><a href="#">Google Translate will soon transcribe recordings in other languages</a></h5>
+          <span> Ivan mehta - 6 hours ago</span>
+        </div>
+        <div class="news-article news-article-3">
+          <a href="#"><img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-515x270.jpg"
+              alt="image"></a>
+          <h5><a href="#">Google is working on another chat app because it hasn't failed enough already</a>
+          </h5>
+          <span> Napier Lopez - 11 hours ago</span>
+        </div>
+        <div class="news-article news-article-4">
+          <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/2FA-PC-516x270.jpg"
+              alt="image"></a>
+          <h5><a href="#">Too many game stores? Here's how to get them all on Steam</a></h5>
+          <span>Rachel Kaser - 14 hours ago</span>
+        </div>
+        <div class="news-article news-article-5">
+          <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/brain-440x220.jpg"
+              alt="image"></a>
+          <h5><a href="#">Quantum cognition theory explains why humans make stupid decisions</a></h5>
+          <span>Tristan Greene - 18 hours ago</span>
+        </div>
+        <div class="news-article news-article-6">
+          <a href="#"><img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Atari-Hotel-516x270.jpg"
+              alt="image"></a>
+          <h5><a href="#">A line of Atari-branded gaming hotels are on their way to US cities</a></h5>
+          <span>Rachel Kaser - 19 hours ago</span>
+        </div>
+        <div class="news-article news-article-7">
+          <a href="#"><img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/ring-amazon-video-customer-499x270.jpg"
+              alt="image"></a>
+          <h5><a href="#">Amazon Engineer: 'Ring should be shut down immediately and not brought back'</a></h5>
+          <span>Tristan Greene - 20 hours ago</span>
+        </div>
+        <div class="news-article news-article-8">
+          <a href="#"><img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/All-Formats-Lightcycle-Morph-535x270.jpg"
+              alt="image"></a>
+          <h5><a href="#">Dyson's Lightcycle Morph is a versatile task light that kinda looks like a lightsaber</a></h5>
+          <span>Napier Lopez - 20 hours ago</span>
+        </div>
+      </div>
+    </section>
+    <section class="flex-container flex-column sections">
+      <div id="all-rounds-title" class="flex-container flex-row flex-align space-between max-width">
+        <h2 class="flex-sz-1"><a href="#">Latest funding rounds on index.co ></a></h2>
+        <ul class="section-links flex-sz-1 flex-container flex-row-reverse">
+          <li class="left-border"><a href="#" class="red-text no-underline">See more</a></li>
+          <li class="left-border"><a href="#" class="red-text no-underline">Get updates by email</a></li>
+          <li><a href="#" class="red-text no-underline">Add info</a></li>
+        </ul>
+      </div>
+      <div id="all-rounds" class="flex-container max-width mt-30">
+        <div class="rounds flex-container flex-column max-width pr-10">
+          <div class="flex-container flex-column">
+            <div class="company-names pl-85 pt-10 bold-text">
+              <p>IDbyDNA</p>
+            </div>
+            <div class="flex-container flex-column company-funds pl-85 pt-10">
+              <p class="bold-text">$200M</p>
+              <p>SERIES B</p>
+            </div>
+            <div class="rounds-img">
+              <img
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F936301422819155968%2FhYetmArh.jpg&signature=5b3b4c502e57a5056a956060492f0e89"
+                alt="">
+            </div>
+          </div>
+          <div class="flex-container rounds-info p-20 rounds-body-bg">
+            <div class="flex-container flex-column ">
+              <div class="flex-container m-10">
+                <i class="pr-10 fa fa-ticket"></i> <span>Life Sciences</span>
+              </div>
+              <div class="flex-container m-10">
+                <i class="pr-10 fa fa-archive"></i> <span>Genesys Capital</span>
+              </div>
+            </div>
+          </div>
+          <div class="rounds-tags p-20 rounds-body-bg">
+            <a href="#" class="rounds-a">IDbyDNA Raises $20M in Series B Financing on FinSMEs</a>
+          </div>
+        </div>
+        <div class="rounds flex-container flex-column max-width pr-10 pl-10">
+          <div class="flex-container flex-column">
+            <div class="company-names pl-85 pt-10 bold-text">
+              <p>Coda</p>
+            </div>
+            <div class="flex-container flex-column company-funds pl-85 pt-10">
+              <p class="bold-text">$200M</p>
+              <p>SERIES B</p>
+            </div>
+            <div class="rounds-img">
+              <img
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1215148334043631617%2FwGdzd_Fn.png&signature=2f93b1b9a01836e6ab353f24a7206161"
+                alt="">
+            </div>
+          </div>
+          <div class="flex-container rounds-info p-20 rounds-body-bg">
+            <div class="flex-container flex-column ">
+              <div class="flex-container m-10">
+                <i class="pr-10 fa fa-ticket"></i> <span>Life Sciences</span>
+              </div>
+              <div class="flex-container m-10">
+                <i class="pr-10 fa fa-archive"></i> <span>Genesys Capital</span>
+              </div>
+            </div>
+          </div>
+          <div class="rounds-tags p-20 rounds-body-bg">
+            <a href="#" class="rounds-a">Coda mobile-game-publishing platform raises $4 million in seed funding</a>
+          </div>
+        </div>
+        <div class="rounds flex-container flex-column max-width pr-10 pl-10">
+          <div class="flex-container flex-column">
+            <div class="company-names pl-85 pt-10 bold-text">
+              <p>Ventec Life Systems</p>
+            </div>
+            <div class="flex-container flex-column company-funds pl-85 pt-10">
+              <p class="bold-text">$200M</p>
+              <p>SERIES B</p>
+            </div>
+            <div class="rounds-img">
+              <img
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1013756400173047808%2F2fzCCT5F.jpg&signature=fa5f22c41a9533bb46fb81a053cd33f0"
+                alt="">
+            </div>
+          </div>
+          <div class="flex-container rounds-info p-20 rounds-body-bg">
+            <div class="flex-container flex-column ">
+              <div class="flex-container m-10">
+                <i class="pr-10 fa fa-ticket"></i> <span>Life Sciences</span>
+              </div>
+              <div class="flex-container m-10">
+                <i class="pr-10 fa fa-archive"></i> <span>Genesys Capital</span>
+              </div>
+            </div>
+          </div>
+          <div class="rounds-tags p-20 rounds-body-bg">
+            <a href="#" class="rounds-a">Ventec Life Systems raises $20M for multi-function ventilator on GeekWire</a>
+          </div>
+        </div>
+        <div class="rounds flex-container flex-column max-width pr-10 pl-10">
+          <div class="flex-container flex-column">
+            <div class="company-names pl-85 pt-10 bold-text">
+              <p>99math</p>
+            </div>
+            <div class="flex-container flex-column company-funds pl-85 pt-10">
+              <p class="bold-text">$200M</p>
+              <p>SERIES B</p>
+            </div>
+            <div class="rounds-img">
+              <img
+                src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1126842159330729985%2FFSFWPbwp.png&signature=0dfeb0d44540f47dea7dce5ba82ca49c"
+                alt="">
+            </div>
+          </div>
+          <div class="flex-container rounds-info p-20 rounds-body-bg">
+            <div class="flex-container flex-column ">
+              <div class="flex-container m-10">
+                <i class="pr-10 fa fa-ticket"></i> <span>Life Sciences</span>
+              </div>
+              <div class="flex-container m-10">
+                <i class="pr-10 fa fa-archive"></i> <span>Genesys Capital</span>
+              </div>
+            </div>
+          </div>
+          <div class="rounds-tags p-20 rounds-body-bg">
+            <a href="#" class="rounds-a">99math Raises $500K in Funding on FinSMEs</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="section-bundle sections">
+      <section class="section-1 flex-container flex-column">
+        <h2><a href="#">Apps ></a></h2>
+        <div class="section-1-background">
+          <div class="gradient">
+            <img
+              src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-tim-cook-Apple-financials-1-368x276.png"
+              alt="image">
+            <div class="section-img-text">
+              <span>MOST POPULAR</span>
+              <h2><a href="#">Google is working on another chat app because it hasn't failed enough already</a></h2>
+              <a>Napier Lopez</a><span> - 14 hours ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="latest-news-container">
+          <div class="latest-image latest-image-1"></div>
+          <div class="flex-container flex-column latest-news-title">
+            <h3>LATEST</h3>
+            <h2>Google Translate will soon transcribe recordings in other languages</h2>
+          </div>
+        </div>
+        <div class="latest-news-list">
+          <ul>
+            <li><a href="#">Google is working on another chat app because it hasn't failed enough already</a></li>
+            <li><a href="#">How to back up your Google Docs (in case Drive goes down again)</a></li>
+            <li><a href="#">How to set up a birthday fundraiser on Facebook</a></li>
+            <li><a href="#">How to add people to Twitter lists without notifying them</a></li>
+            <li><a href="#">Your beginner's guide to Honey, the anti-Amazon shopping extension</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-2 flex-container flex-column">
+        <h2><a href="#">Gear ></a></h2>
+        <div class="section-2-background">
+          <div class="gradient">
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg"
+              alt="image">
+            <div class="section-img-text">
+              <span>MOST POPULAR</span>
+              <h2><a href="#">Apple’s Q1 2020 financials were great — but it still needs a budget iPhone</a></h2>
+              <a>Callum Booth</a><span> - 2 hours ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="latest-news-container">
+          <div class="latest-image latest-image-2"></div>
+          <div class="flex-container flex-column latest-news-title">
+            <h3>LATEST</h3>
+            <h2>Dyson's Lightcycle Morph is a versatile task light that kinda looks like a lightsaber</h2>
+          </div>
+        </div>
+        <div class="latest-news-list">
+          <ul>
+            <li><a href="#">The EU’s dull-ass fight with Apple over the Lightning connector sucks</a></li>
+            <li><a href="#">Leak: Motorola takes on the Galaxy Note with new stylus-enabled phone</a></li>
+            <li><a href="#">The Eve Spectrum is a high-res, stylish gaming monitor at a great price</a></li>
+            <li><a href="#">The single glass sheet iMac patent gives me hope Apple will focus on design again</a></li>
+            <li><a href="#">Samsung loses its #2 spot in India's smartphone market to Vivo</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-3 flex-container flex-column">
+        <h2><a href="#">Tech ></a></h2>
+        <div class="section-3-background">
+          <div class="gradient">
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg"
+              alt="image">
+            <div class="section-img-text">
+              <span>MOST POPULAR</span>
+              <h2><a href="#">Quantum cognition theory explains why humans make stupid decisions</a></h2>
+              <a>Tristan Greene</a><span> - 21 hours ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="latest-news-container">
+          <div class="latest-image latest-image-3"></div>
+          <div class="flex-container flex-column latest-news-title">
+            <h3>LATEST</h3>
+            <h2>Amazon Engineer: 'Ring should be shut down immediately and not brought back'</h2>
+          </div>
+        </div>
+        <div class="latest-news-list">
+          <ul>
+            <li><a href="#">How to use Facebook's 'Off-Facebook Activity' tool</a></li>
+            <li><a href="#">RealityEngines' AI could help small businesses overcome the data gap</a></li>
+            <li><a href="#">Time travel is possible – but only if you have an object with infinite mass</a></li>
+            <li><a href="#">It's 2020 and hacking wallets is still a PR stunt for cryptocurrency startups</a></li>
+            <li><a href="#">Why the smartest AI is still dumber than a toddler -- and how we can fix that</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-4 flex-container flex-column">
+        <h2><a href="#">Creative ></a></h2>
+        <div class="section-4-background">
+          <div class="gradient">
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-368x276.png"
+              alt="image">
+            <div class="section-img-text">
+              <span>MOST POPULAR</span>
+              <h2><a href="#">Leaked trailer offers a new look at Godfall, the first game announced for PS5</a></h2>
+              <a>Mix</a><span> - 8 days ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="latest-news-container">
+          <div class="latest-image latest-image-4"></div>
+          <div class="flex-container flex-column latest-news-title">
+            <h3>LATEST</h3>
+            <h2>Instagram's decision to hide photoshopped images is a disservice to art</h2>
+          </div>
+        </div>
+        <div class="latest-news-list">
+          <ul>
+            <li><a href="#">How to design better buttons</a></li>
+            <li><a href="#">Giphy debuts Arcade, a platform for making and playing 'microgames'</a></li>
+            <li><a href="#">Microsoft's new font for devs is very aesthetically pleasing (and free)</a></li>
+            <li><a href="#">How to build a production and recording studio that fits in a backpack</a></li>
+            <li><a href="#">Watch: Disney’s new anti-vibration tech maps CGI movements onto actual robots</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-5 flex-container flex-column">
+        <h2><a href="#">Podium ></a></h2>
+        <div class="section-5-background">
+          <div class="gradient">
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg"
+              alt="image">
+            <div class="section-img-text">
+              <span>MOST POPULAR</span>
+              <h2><a href="#">It’s 2020 and we still have a data privacy problem</a></h2>
+              <a>Om Mahida</a><span> - 4 days ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="latest-news-container">
+          <div class="latest-image latest-image-5"></div>
+          <div class="flex-container flex-column latest-news-title">
+            <h3>LATEST</h3>
+            <h2>Get ready for the emergence of AI-as-a-Service</h2>
+          </div>
+        </div>
+        <div class="latest-news-list">
+          <ul>
+            <li><a href="#">How to be a digital disrupter at your company — without getting fired</a></li>
+            <li><a href="#">Conway’s Law and DevSecOps: How communication affects security</a></li>
+            <li><a href="#">Why your business should focus on understanding speech over voice recognition</a></li>
+            <li><a href="#">Facebook and Zuckerberg keep getting ‘freedom of expression’ wrong</a></li>
+            <li><a href="#">WeWork can be salvaged — but its turnaround plan isn’t enough</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-6 flex-container flex-column">
+        <h2><a href="#">Insights ></a></h2>
+        <div class="section-6-background">
+          <div class="gradient">
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg"
+              alt="image">
+            <div class="section-img-text">
+              <span>MOST POPULAR</span>
+              <h2><a href="#">Satoshi Nakaboto: ‘Bitcoin rises another 5% in one day’</a></h2>
+              <a>Satoshi Nakaboto</a><span> - 8 hours ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="latest-news-container">
+          <div class="latest-image latest-image-6"></div>
+          <div class="flex-container flex-column latest-news-title">
+            <h3>LATEST</h3>
+            <h2>Q4 2019: Stellar gives away $16M, burns 50% of XLM — price still drops</h2>
+          </div>
+        </div>
+        <div class="latest-news-list">
+          <ul>
+            <li><a href="#">Google paid out $6.5 million in bug bounties in 2019</a></li>
+            <li><a href="#">Satoshi Nakaboto: ‘Bitcoin rises another 5% in one day’</a></li>
+            <li><a href="#">UK's high court orders crypto exchange Bitfinex to dox recipients of $860K in Bitcoin</a>
+            </li>
+            <li><a href="#">124 years after the first speeding ticket and regulations still can’t keep up with tech</a>
+            </li>
+            <li><a href="#">Bill Gates owns a lot more Apple stock than you might think</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-7 flex-container flex-column">
+        <h2><a href="#">Launch ></a></h2>
+        <div class="section-7-background">
+          <div class="gradient">
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg"
+              alt="image">
+            <div class="section-img-text">
+              <span>MOST POPULAR</span>
+              <h2><a href="#">PSA: Amazon Fresh grocery deliveries are now free for US Prime members</a></h2>
+              <a>Abhimanyu Ghoshal</a><span> - 3 months ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="latest-news-container">
+          <div class="latest-image latest-image-7"></div>
+          <div class="flex-container flex-column latest-news-title">
+            <h3>LATEST</h3>
+            <h2>Alexis Ohanian and Serj Tankian team up to help build a social network for Armenia</h2>
+          </div>
+        </div>
+        <div class="latest-news-list">
+          <ul>
+            <li><a href="#">Google Assistant gets its own phone number in India</a></li>
+            <li><a href="#">Pam and Angela from The Office are re-watching the show for their new podcast</a></li>
+            <li><a href="#">Bethesda wants you to test its game streaming tech with DOOM on iOS this year</a></li>
+            <li><a href="#">Mozilla rolls out new automated crypto-jacking filtering in Firefox</a></li>
+            <li><a href="#">Google announces Stadia, its cross-platform game streaming service</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-8 flex-container flex-column">
+        <h2><a href="#">Tech ></a></h2>
+        <div class="section-8-background">
+          <div class="gradient">
+            <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg"
+              alt="image">
+            <div class="section-img-text">
+              <span>MOST POPULAR</span>
+              <h2><a href="#">You can now bother Google for tech support with #AndroidHelp</a></h2>
+              <a>Mix</a><span> - 1 day ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="latest-news-container">
+          <div class="latest-image latest-image-8"></div>
+          <div class="flex-container flex-column latest-news-title">
+            <h3>LATEST</h3>
+            <h2>Watch this Sonic movie-themed Wiz Khalifa music video you didn't know you needed</h2>
+          </div>
+        </div>
+        <div class="latest-news-list">
+          <ul>
+            <li><a href="#">This free font was designed to make it easier for devs to read code</a></li>
+            <li><a href="#">Modern Warfare Season One's been extended, should I purchase the Battle Pass now?</a></li>
+            <li><a href="#">Radiohead launches digital 'public library' of the band’s archive</a></li>
+            <li><a href="#">This genius combined every macOS 10 wallpaper into a psychedelic masterpiec</a></li>
+            <li><a href="#">If a Japanese billionaire farted in front of you, what would you say?</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <section class="flex-container flex-column sections best-deals">
+      <div class="flex-container flex-row flex-align space-between max-width">
+        <h2 class="flex-sz-1"><a href="#">Latest deals ></a></h2>
+        <ul class="section-links flex-sz-1 flex-container flex-row-reverse">
+          <li><a href="#" class="red-text no-underline">See All</a></li>
+        </ul>
+      </div>
+      <div id="best-deals-container" class="flex-container flex-wrap">
+        <div class="flex-container flex-column best-deals-item best-deals-item-1">
+          <img
+            src="https://cdnp0.stackassets.com/3d28a01310d47a9ece38eb1a189790944b8e512e/store/bd912e50369c037674603acf0ef1a582b658ef72662651d6eab3d7aa657e/sale_25558_primary_image.jpg"
+            alt="">
+          <p><a href="#" style="display: flex; flex-wrap: wrap;">The 2020 Adobe Illustrator CC Master Class Bundle</a>
+          </p>
+          <span><s>$284</s> $39.99</span>
+        </div>
+        <div class="flex-container flex-column best-deals-item best-deals-item-2">
+          <img
+            src="https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg"
+            alt="">
+          <p><a href="#" style="display: flex; flex-wrap: wrap;">Learn How to Draw Freebie Bundle</a></p>
+          <span><s>$0</s> $0</span>
+        </div>
+        <div class="flex-container flex-column best-deals-item best-deals-item-3">
+          <img
+            src="https://cdnp3.stackassets.com/ba7cb2479d7bb8b5a7fecebb6af74ad77f9f74fa/store/c350066a7652411d43ac5e6a9b3caf8c8aaec349093c09728483b211ca82/sale_19370_primary_image.jpg"
+            alt="">
+          <p><a href="#" style="display: flex; flex-wrap: wrap;">The Complete CompTIA Certification Training Bundle</a>
+          </p>
+          <span><s>$3433</s> $29</span>
+        </div>
+        <div class="flex-container flex-column best-deals-item best-deals-item-4">
+          <img
+            src="https://cdnp0.stackassets.com/a875072fa31f35279ce85438b376249c54eca996/store/8534f1826bec31d741297d74ee8a30edc0f492f8f74cd08aa4ed0103d42a/sale_14523_primary_image.jpg"
+            alt="">
+          <p><a href="#" style="display: flex; flex-wrap: wrap;">
+              FastestVPN: Lifetime Subscription (5 Devices)</a></p>
+          <span><s>$600</s> $19.99</span>
+        </div>
+        <div class="flex-container flex-column best-deals-item best-deals-item-5">
+          <img
+            src="https://cdnp0.stackassets.com/a3ccaeda34a76114ff1857781116218c60d2dcb6/store/919badb294f879f54a3dbb065ad4294937dd3fb6c88648718f8f8064d914/sale_21750_primary_image.jpg"
+            alt="">
+          <p><a href="#" style="display: flex; flex-wrap: wrap;">The Complete 2020 CompTIA Certification Training
+              Bundle</a></p>
+          <span><s>$3486</s> $89</span>
+        </div>
+        <div class="flex-container flex-column best-deals-item best-deals-item-6">
+          <img
+            src="https://cdnp0.stackassets.com/a006d74a4214b0eb32c6ce78b158f01b3d871514/store/9dda482d6249c0add53c47b9b22ade2e3d22916d41ee83c217d468265c6f/sale_25287_primary_image.jpg"
+            alt="">
+          <p><a href="#" style="display: flex; flex-wrap: wrap;">Apple iPad Mini 3 16GB - Gold (Wi-Fi + GSM/CDMA
+              Unlocked)</a></p>
+          <span><s>$400.99</s> $239.99</span>
+        </div>
+        <div class="flex-container flex-column best-deals-item best-deals-item-7">
+          <img
+            src="https://cdnp3.stackassets.com/421ab0b04c84801af8a4f51ece880298388bd127/store/16cea4d1381f08ca8c02de9dd2d0fabc10f1fdeae203d89b6f66092ce3e6/sale_25441_primary_image.jpg"
+            alt="">
+          <p><a href="#" style="display: flex; flex-wrap: wrap;">The 2020 Adobe InDesign CC Master Class Bundle</a></p>
+          <span><s>$221</s> $39.99</span>
+        </div>
+        <div class="flex-container flex-column best-deals-item best-deals-item-8">
+          <img
+            src="https://cdnp1.stackassets.com/b84071b94151b0a50465135f5b203e5839a98736/store/327a0734b985e095e3ec81f34dc15ab2cebbd59d9191662bbd25a329cc11/sale_25559_primary_image.jpg"
+            alt="">
+          <p><a href="#" style="display: flex; flex-wrap: wrap;">The Complete Excel Pro Tips Certification Bundle</a>
+          </p>
+          <span><s>$294</s> $19</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="flex-container flex-column">
+    <div id="footer-links" class="flex-container flex-column center-content">
+      <ul class="flex-container">
+        <li class="flex-container"><a href="#"><i class="fa fa-facebook"></i></a></i></li>
+        <li class="flex-container"><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li class="flex-container"><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li class="flex-container"><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li class="flex-container"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+        <li class="flex-container"><a href="#"><i class="fa fa-rss"></i></a></li>
+        <li class="flex-container"><a href="#"><i class="fa fa-envelope"></i></a></li>
+      </ul>
+      <ul class="flex-container">
+        <li><a href="#">EVENTS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">TEAM</a></li>
+        <li><a href="#">ADVERTISE</a></li>
+        <li><a href="#">JOBS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+    <div id="footer-legal" class="flex-container flex-align">
+      <span>
+        <a href="#">
+          <img id="footer-logo" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"
+            alt="the next web">
+        </a> The Next
+        Web © 2006–2020 The Next Web B.V. Made with ♥ in Amsterdam. Powered by </a>
+        <a href="https://www.stackpath.com?utm_campaign=Partner%20Display&amp;utm_source=Partner%20Display&amp;utm_medium=thenextweb"
+          target="_blank" rel="noopener" class=""> <img style="width: 50px;" alt="StackPath"
+            src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg">
+        </a>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>
