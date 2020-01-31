@@ -1065,7 +1065,7 @@ footer ul {
 }
 
 #footer-links ul:nth-child(1) li {
-  background-color: white;
+  background-color: #333333;
   width: 40px;
   height: 40px;
   border-radius: 100%;
