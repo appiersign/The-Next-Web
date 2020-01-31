@@ -157,10 +157,6 @@ section h2 a {
   text-decoration: none;
 }
 
-section h2 a:hover {
-  color: black;
-}
-
 .max-width {
   width: 100%;
   height: auto;
@@ -388,6 +384,10 @@ section h2 a:hover {
   text-decoration: none;
 }
 
+section h2 a:hover {
+  color: black;
+}
+
 .latest-news-list ul li a {
   text-decoration: none;
   color: gray;
@@ -586,7 +586,7 @@ section h2 a:hover {
   grid-gap: 32px;
 }
 
-.section-bundle section h2{
+.section-bundle section h2 {
   margin-bottom: 30px;
 }
 
