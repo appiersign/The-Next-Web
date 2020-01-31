@@ -1262,56 +1262,56 @@ footer ul {
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 32px;
   }
-  
+
   .best-deals-item-1 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
   }
-  
+
   .best-deals-item-2 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
   }
-  
+
   .best-deals-item-3 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
   }
-  
+
   .best-deals-item-4 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
   }
-  
+
   .best-deals-item-5 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
   }
-  
+
   .best-deals-item-6 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
   }
-  
+
   .best-deals-item-7 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
   }
-  
+
   .best-deals-item-8 {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -1338,7 +1338,7 @@ footer ul {
     margin: 0;
     padding: 0 10px 0 10px;
     display: block;
-    float:right;
+    float: right;
     border-left: lightgray 0.5px solid;
   }
 
