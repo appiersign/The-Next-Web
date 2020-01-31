@@ -352,15 +352,6 @@ section h2 a {
   font-weight: bold;
 }
 
-#footer-legal a,
-span {
-  color: #999;
-  font-family: sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
-  font-size: 0.7em;
-  line-height: 18px;
-  text-align: center;
-}
-
 .section-img-text span,
 .section-img-text a {
   font-size: 13px;
@@ -410,6 +401,15 @@ section h2 a:hover {
 
 .t-n-font a:hover {
   color: white;
+}
+
+#footer-legal a,
+span {
+  color: #999;
+  font-family: sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  font-size: 0.7em;
+  line-height: 18px;
+  text-align: center;
 }
 
 .h-32 {
